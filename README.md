@@ -35,7 +35,7 @@ python run_graph_classification.py --rewiring BORF
 ```
 
 ## Citation and reference
-For technical details and full experiment results, please check [our paper](https://arxiv.org/abs/2311.14864).
+For technical details and full experiment results, please check [our paper](https://arxiv.org/abs/2309.09384).
 ```
 @inproceedings{fesser2023mitigating,
   title={Mitigating Over-smoothing and Over-squashing using Augmentations of Forman-Ricci Curvature},
