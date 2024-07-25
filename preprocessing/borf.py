@@ -219,7 +219,7 @@ def _find_threshold(curv_vals: np.ndarray) -> float:
     mean2 = gmm.means_[1][0]
     std2 = np.sqrt(gmm.covariances_[1][0][0])
 
-    threshold = (mean1 * std1 + mean2 * std2) / (std1 + std2)
+    threshold = (mean1 * std2 + mean2 * std1) / (std1 + std2)
 
     return (threshold, mean1, std1, mean2, std2)
 
